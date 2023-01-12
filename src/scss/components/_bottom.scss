@@ -1,0 +1,49 @@
+.bottom-part{
+
+  &__container{
+    height: 589px;
+    background-image: url('../img/bg_bottom.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  &__title{
+    max-width: 666px;
+    padding: 168px 0px 32px 0px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--light-color);
+  }
+  &__btn{
+    display: flex;
+    justify-content: center;
+  }
+
+}
+ @include mobile{
+ 
+  .bottom-part__container{
+    background-image: url('../img/small_handshake.png');
+    background-position: right;
+  }
+  .bottom-part__title{
+    max-width: 280px;
+   padding: 101px 0px 24px 0px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+  }
+  .bottom-part__btn{
+    width: 211px;
+    height: 48px;
+  }
+ }

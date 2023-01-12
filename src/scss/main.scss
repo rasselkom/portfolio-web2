@@ -1,0 +1,20 @@
+// базовые подключения
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "settings";
+
+// подключения компонентов страницы
+@import "./components/burger";
+@import "./components/header";
+@import "./components/popup";
+@import "./components/nav";
+@import "./components/hero";
+@import "./components/price";
+@import "./components/card";
+@import "./components/about";
+@import "./components/banner";
+@import "./components/descr";
+@import "./components/bottom";
+@import "./components/footer";
+// тестовые стили, удалите их
